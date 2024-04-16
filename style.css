@@ -11,12 +11,47 @@ h1 {
     justify-content: space-between;
     margin: 0;
     padding: 16px;
-    padding-left: 160px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 .logo {
     width: auto;
     height: 100px;
+}
+
+.information {
+    display: flex;
+    background-color: #1F2937;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.information-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #F9FAF8;
+    gap: 8px;
+}
+
+.information-image {
+    width: auto;
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3382F6;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
 }
 
 a {
@@ -27,7 +62,7 @@ a {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 32px;
     font-size: 18px;
     align-items: center;
 }

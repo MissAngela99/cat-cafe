@@ -16,7 +16,7 @@ h1 {
 
 .logo {
     width: auto;
-    height: 60px;
+    height: 100px;
 }
 
 a {
@@ -29,4 +29,5 @@ ul {
     display: flex;
     gap: 16px;
     font-size: 18px;
+    align-items: center;
 }

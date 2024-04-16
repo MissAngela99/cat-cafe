@@ -1,5 +1,5 @@
 # Cat-Bakery
-a site about cats baking
+a site about cat cafe
 
 
 

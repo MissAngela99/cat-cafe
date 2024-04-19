@@ -32,6 +32,11 @@ h1 {
     gap: 60px;
 }
 
+.title-header {
+    display: flex;
+    text-align: left;
+}
+
 .information-text {
     display: flex;
     flex-direction: column;
@@ -65,6 +70,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 8px;
+    margin-bottom: 50px;
 }
 
 .cat {
@@ -197,6 +203,10 @@ a {
     color: #F9FAF8;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -213,4 +223,8 @@ button {
     font-weight: 600;
     width: 120px;
     height: 40px;
+}
+
+button:hover {
+    background-color: #b16f25a1;
 }
